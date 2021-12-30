@@ -1,0 +1,288 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+.page-banner{
+	background-image: url('../housing.jpg');
+	height: 500px;
+}
+.logo{
+	background-image: url('../logo.png');
+	height: 48px;
+	background-repeat: no-repeat;
+	background-size: 155px 20px;
+	width: 50%;
+	float: left;
+}
+.search-box{
+	padding: 0 30px 30px;
+	display: flex;
+	width: 982px;
+    margin: 25px auto;
+    background-color: rgba(0,0,0,.5);
+    flex-flow: row wrap;
+}
+.search{
+    display: block;
+    border: none;
+    padding: 0;
+    height: 40px;
+    width: 750px;
+    font-size: 14px;
+	
+}
+.buy, .rent{
+	padding: 0 27px;
+    height: 58px;
+    margin: 0;
+    border-radius: 0;
+    opacity: .5;
+    background-color: transparent;
+    cursor: pointer;
+}
+.buy1, .rent1{
+	color: white;
+
+}
+.search{
+	-webkit-appearance: none;
+    display: block;
+    border: none;
+    padding: 0;
+    height: 35px;
+    width: 750px;
+    font-size: 14px;
+}
+.text{
+	float: right;
+	height: 40px;
+	width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-bottom: 43px;
+}
+
+}
+.search-header{
+	text-align: center;
+    position: absolute;
+    top: 35px;
+    bottom: 0;
+    margin: auto;
+    height: 220px;
+    width: 100%;
+}
+.tag-container{
+	width: 100%;
+	line-height: 35px;
+    margin: 5px 2px;   
+    overflow: hidden;
+ }
+ .input{
+    height: 40px;
+    padding-left: 10px;
+    background-color: #fff;
+    text-align: left;
+ }
+ .butt{
+ 	width: 150px;
+    height: 40px;
+    font-size: 14px;
+    background-color: #1dd38f;
+    border: 1px solid #1dd38f;
+    color: white;
+}
+.class-container{
+	padding-left: 90px;
+	width: 270px;
+	float: left;
+}
+.spot{
+	padding-top: 70px;
+	padding-bottom: 20px;
+	width: 1100px;
+}
+.grey{
+	color: #757575;
+	font-weight: 400;
+	font-size: 28px;
+
+}
+.top{
+	color: #757575;
+	margin-top: auto;
+	font-weight: 100;
+}
+.light{
+	font-size: 25px;
+}
+.thumbpic{
+	height: 73px;
+    width: 70px;
+    padding-right: 15px;
+}
+.imgtext{
+	width: 250px;
+}
+.details{
+	width: 100px;
+	padding-left: 90px;
+}
+p{
+	color: grey;
+	margin-top: auto;
+}
+.project{
+	width: 130px;
+    height: 40px;
+    background-color: #5e23dc;
+    color: white;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+.build-blog{
+	box-sizing: border-box;
+    width: 750px;
+    float: right;
+    height: 450px;
+    padding-top: 200px;
+}
+.sell-home{
+	background-image: url('https://is1-3.housingcdn.com/4f2250e8/4fa74a3375789a6fdcb6106bf9ed96b8/v0/medium/gopalan_olympia-mysore_road_kethiganahalli-bengaluru-gopalan_enterprises.jpg');
+    width: 300px;
+    height: 225px;
+    float: right;
+    background-repeat: no-repeat;
+}
+.lak{
+	color: white;
+}
+.sell-home2{
+	background-image: url('https://is1-2.housingcdn.com/4f2250e8/f7000ead75b3e882c7e9c1a5dc381a87/v0/medium/gopalan_sanskriti-mysore_road_kethiganahalli-bengaluru-gopalan_enterprises.jpg');
+    width: 300px;
+    height: 225px;
+    float: left;
+    color: white;
+    top: 90%;
+    background-repeat: no-repeat;
+}
+.hse{
+	clear: both;
+	padding-left: 90px;
+    padding-top: 90px;
+}
+.hse1{
+	font-size: 35px;
+}
+.img1{
+    background-image: url('https://is1-3.housingcdn.com/4f2250e8/ef6c4b06dd5f5d6d06ad54f962534b11/v0/large/salarpuria_sattva_luxuria-malleswaram-bengaluru-salarpuria_sattva.jpg');
+    height: 380px;
+    width: 40%;
+    float: left;
+    padding-right: 10px;
+    position: absolute;
+    border: 1px solid black;
+}
+.img2{
+    background-image: url('https://is1-3.housingcdn.com/4f2250e8/ef6c4b06dd5f5d6d06ad54f962534b11/v0/large/salarpuria_sattva_luxuria-malleswaram-bengaluru-salarpuria_sattva.jpg');
+    width: 40%;
+    height: 380px;
+    float: right;
+    padding-left: 10px;
+    border: 1px solid black;
+    margin-right: 45px;
+
+}
+.fas.fa-map-marker-alt, .fas.fa-info{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 9px;
+    border: 1px solid #fff;
+    color: #5c5c5c;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.rate{
+    border: 1px solid #dad7d7;
+    height: 150px;
+    position: relative;
+    width: 577px;
+    margin-top: 355px;
+    padding: 5px 20px 0;
+}
+
+.name{
+    width: 250px;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: normal;
+    float: left;
+}
+.rate1{
+    border: 1px solid #dad7d7;
+    height: 150px;
+    margin-top: 355px;
+    width: 542px;
+    position: relative;
+    margin-left: -11px;
+    padding: 5px 20px 0;
+}
+.cr19{
+    float: right;
+}
+.offer{
+    display: inline-block;
+    border: 1px solid #f22b68;
+    width: 80px;
+    text-align: center;
+    border-radius: 2xp;
+    border-radius: 5px;
+    background-color: #f22b68;
+    height: 24px;
+    color: white;
+    padding-top: 6px;
+}
+.wid{
+    clear: both;
+    padding-top: 240px;
+    padding-left: 90px;
+    font-size: 35px;
+}
+.wid-img{
+    background-image: url('https://is1-2.housingcdn.com/4f2250e8/f7000ead75b3e882c7e9c1a5dc381a87/v0/medium/gopalan_sanskriti-mysore_road_kethiganahalli-bengaluru-gopalan_enterprises.jpg');
+    width: 250px;
+    height: 200px;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    position: absolute;
+}
+.border{
+    border: 1px solid #dad7d7;
+    height: 150px;
+    margin-top: 201px;
+    width: 209px;
+    position: relative;
+    padding: 5px 20px 0;
+    margin-left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
